@@ -1,7 +1,7 @@
 const port = process.env.PORT || '8080';
 const host = process.env.HOST || '0.0.0.0';
-const Express = require('express');
-const app = Express();
+const express = require('express');
+const app = express();
 
 //create variable look for index.js directory
 var rules = require('./app');
